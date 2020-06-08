@@ -1,0 +1,24 @@
+@media (min-width: 310px){
+  #responsive {
+    font-size: 36pt;
+    font-family: arial;
+    color: blue;
+  }
+}
+
+@media (min-width: 110px) and (max-width: 310px) {
+  #responsive {
+    font-size: 24pt;
+    font-family: Helvetica;
+    color: red;
+  }
+}
+
+
+@media (max-width: 105px){
+  #responsive {
+    font-size: 18pt;
+    font-family: courier;
+    color: purple;
+  }
+}
